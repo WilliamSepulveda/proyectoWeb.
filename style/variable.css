@@ -1,0 +1,7 @@
+:root{
+    --color-primary: #2c2b47;
+}
+@font-face {
+    font-family: "mono";
+    src: url(../storage/fonts/poppins/Poppins-Thin.ttf)
+}

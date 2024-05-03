@@ -1,0 +1,91 @@
+@import url(variable.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+
+}
+body{
+    background: var(--color-primary);
+}
+.header{
+    background: red;
+    margin-top: 8vh;
+}
+.main{
+    display: grid;
+}
+.header p{
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: "regular";
+    color: tomato;
+}
+.containertitle{
+    background: blue;
+    margin-top: 4vh;
+}
+.containertitle h1{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    font-family: "regular";
+}
+.containerp{
+    display: grid;
+    background: yellow;
+    padding: 2vw;
+}
+.containerh{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: purple;
+    padding: 1vw;
+}
+.cont__images{
+    background: turquoise;
+    /* padding: 2vw; */
+}
+.cont__images2{
+    background: rgb(224, 173, 64);
+    /* padding: 2vw; */
+}
+.cont__images3{
+    background: rgb(64, 224, 77);
+    /* padding: 2vw; */
+}
+.contenido{
+    display: grid;
+    background: pink;
+    margin-left: 5vw;
+    /* padding: 2vw; */
+    border: 1px solid black;
+    width: 20vw;
+}
+.contenido button{
+    position: relative;
+    margin-left: 17.5vw;
+    /* transform: translate(22.8vw,-2vw); */
+    width: 2.5vw;
+    height: 4vh;
+}
+.imagen{
+    width: 15vw;
+    position: relative;
+    margin-left: 2vw;
+    
+}
+.contenido p{
+    text-align: center;
+    font-family: "regular";
+    font-size: 1.5vw;
+}
+.contenido span{
+    text-align: center;
+    margin-top: 2vh;
+}
+.contenido h3{
+    color: tomato;
+    text-align: center;
+    font-family: "regular";
+}

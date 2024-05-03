@@ -9,7 +9,7 @@ body{
     background: var(--color-primary);
 }
 .header{
-    background: red;
+    /* background: red; */
     margin-top: 8vh;
 }
 .main{
@@ -22,7 +22,7 @@ body{
     color: tomato;
 }
 .containertitle{
-    background: blue;
+    /* background: blue; */
     margin-top: 4vh;
 }
 .containertitle h1{
@@ -33,30 +33,19 @@ body{
 }
 .containerp{
     display: grid;
-    background: yellow;
-    padding: 2vw;
+    /* background: yellow;
+    padding: 2vw; */
 }
 .containerh{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background: purple;
+    /* background: purple; */
     padding: 1vw;
 }
-.cont__images{
-    background: turquoise;
-    /* padding: 2vw; */
-}
-.cont__images2{
-    background: rgb(224, 173, 64);
-    /* padding: 2vw; */
-}
-.cont__images3{
-    background: rgb(64, 224, 77);
-    /* padding: 2vw; */
-}
+
 .contenido{
     display: grid;
-    background: pink;
+    background: rgb(255, 255, 255);
     margin-left: 5vw;
     /* padding: 2vw; */
     border: 1px solid black;
